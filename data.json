@@ -1,0 +1,185 @@
+{
+  "header": {
+    "institution": "Shri G.S. Institute of Technology & Science",
+    "subtitle": "Govt.-Aided Autonomous Institute (est. in 1952) · \"A\" Grade – \"Topmost Institute\"",
+    "affiliation": "Affiliated to Rajiv Gandhi Proudyogiki Vishwavidyalaya, Bhopal",
+    "address": "23 Park Road, Indore – 452 003 (M.P.)",
+    "phone": "0731-2431025",
+    "fax": "0731-2431021",
+    "email": "registrar@sgsits.ac.in",
+    "accreditations": ["NAAC Accredited", "NBA Accredited", "NIRF Ranked"]
+  },
+  "topBar": {
+    "address": "📍 Shri G.S. Institute of Technology & Science, 23 Park Road, Indore – 452 003 (M.P.)",
+    "links": [
+      { "text": "Student Portal", "href": "#" },
+      { "text": "Exam Cell", "href": "#" },
+      { "text": "RTI", "href": "#" },
+      { "text": "Tenders", "href": "#" },
+      { "text": "Contact", "href": "#" }
+    ]
+  },
+  "navigation": [
+    { "text": "Home", "href": "#" },
+    { "text": "About Us", "href": "#" },
+    { "text": "Academics", "href": "#" },
+    { "text": "Admissions", "href": "#" },
+    { "text": "Research", "href": "#" },
+    { "text": "Departments", "href": "#" },
+    { "text": "Facilities", "href": "#" },
+    { "text": "Alumni", "href": "#" },
+    { "text": "IQAC", "href": "#" },
+    { "text": "Placement", "href": "#" },
+    { "text": "Contact", "href": "#" }
+  ],
+  "heroSlides": [
+    {
+      "title": "Excellence in Engineering & Technology Since 1952",
+      "description": "A premier government-aided institute shaping innovators, researchers, and leaders for over seven decades.",
+      "buttonText": "Explore Programs →",
+      "buttonLink": "#"
+    },
+    {
+      "title": "State-of-the-Art Research & Innovation Labs",
+      "description": "From robotics to renewable energy — our facilities empower students to solve tomorrow's challenges today.",
+      "buttonText": "Research & Projects →",
+      "buttonLink": "#"
+    },
+    {
+      "title": "Placements with Top Global Companies",
+      "description": "Our graduates are placed at Microsoft, TCS, Infosys, L&T and hundreds of leading organisations worldwide.",
+      "buttonText": "Placement Records →",
+      "buttonLink": "#"
+    }
+  ],
+  "quickCards": [
+    {
+      "icon": "🎓",
+      "title": "UG Admissions 2025",
+      "description": "B.E. / B.Tech applications open via JoSAA / MP-DTE counselling. Check eligibility."
+    },
+    {
+      "icon": "📋",
+      "title": "Exam Schedule",
+      "description": "End-semester examination timetable now published for all programmes."
+    },
+    {
+      "icon": "🏆",
+      "title": "NIRF Ranking 2024",
+      "description": "SGSITS ranks among the top engineering institutes in Madhya Pradesh."
+    }
+  ],
+  "news": [
+    {
+        "date": "24",
+        "month": "MAR",
+        "title": "Advertisement for faculty positions (Assistant Professors)",
+        "tag": "Notice",
+        "tagType": "tag-notice",
+        "ref": "Faculty positions Ad_24032026.pdf"
+    },
+    {
+        "date": "24",
+        "month": "MAR",
+        "title": "Detailed guidelines and instructions for recruitment on the positions of Assistant Professors",
+        "tag": "Notice",
+        "tagType": "tag-notice",
+        "ref": "Asst  Prof Advt 24.03.2026.pdf"
+    },
+    {
+        "date": "24",
+        "month": "MAR",
+        "title": "Online Application Form Link for the recruitment of Assistant Professors",
+        "tag": "Notice",
+        "tagType": "tag-notice",
+        "ref": "https://forms.gle/xGxszi9qPmHuErUz6"
+    },
+    {
+        "date": "24",
+        "month": "MAR",
+        "title": "Guidelines for Professor of Practise",
+        "tag": "Notice",
+        "tagType": "tag-notice",
+        "ref": "PRACTICE OF PROFESSOR PDF.pdf"
+    }
+  ],
+  "events": [
+    {
+      "date": "28",
+      "month": "MAR",
+      "title": "Campus Placement Drive – TCS, Infosys & Wipro",
+      "description": "Eligible final-year students may register through the Training & Placement Cell portal.",
+      "tag": "Placement",
+      "tagType": "tag-event"
+    },
+    {
+      "date": "05",
+      "month": "APR",
+      "title": "Workshop on AI & Machine Learning – Department of CSE",
+      "description": "A 3-day hands-on workshop for students and faculty. Registration fee waived for SGSITS students.",
+      "tag": "Workshop",
+      "tagType": "tag-event"
+    }
+  ],
+  "quickLinks": [
+    { "text": "Student Login", "href": "#" },
+    { "text": "Fee Payment Portal", "href": "#" },
+    { "text": "Library OPAC", "href": "#" },
+    { "text": "Exam Results", "href": "#" },
+    { "text": "Scholarships & Financial Aid", "href": "#" },
+    { "text": "Hostel Information", "href": "#" },
+    { "text": "Anti-Ragging Committee", "href": "#" },
+    { "text": "Grievance Redressal", "href": "#" },
+    { "text": "NAAC Self-Study Report", "href": "#" },
+    { "text": "NIRF Data", "href": "#" },
+    { "text": "Annual Reports", "href": "#" }
+  ],
+  "accreditationStrip": [
+    { "name": "NAAC", "text": "\"A\" Grade Accredited" },
+    { "name": "NBA", "text": "Accredited Programmes" },
+    { "name": "NIRF", "text": "National Ranking 2024" },
+    { "name": "AICTE", "text": "Approved" },
+    { "name": "RGPV", "text": "Affiliated University" }
+  ],
+  "programs": [
+    { "icon": "💻", "name": "Computer Science & Engg.", "levels": "B.E. · M.Tech · Ph.D." },
+    { "icon": "⚡", "name": "Electrical Engineering", "levels": "B.E. · M.Tech · Ph.D." },
+    { "icon": "🔩", "name": "Mechanical Engineering", "levels": "B.E. · M.Tech · Ph.D." },
+    { "icon": "🏗️", "name": "Civil Engineering", "levels": "B.E. · M.Tech · Ph.D." },
+    { "icon": "📡", "name": "Electronics & Comm.", "levels": "B.E. · M.Tech · Ph.D." },
+    { "icon": "🧪", "name": "Applied Chemistry", "levels": "B.E. · M.Sc · Ph.D." },
+    { "icon": "🔬", "name": "Applied Physics", "levels": "B.E. · M.Sc · Ph.D." },
+    { "icon": "📐", "name": "Applied Mathematics", "levels": "B.E. · M.Sc · Ph.D." },
+    { "icon": "🏢", "name": "MBA (Management)", "levels": "2-Year Full Time" },
+    { "icon": "🛠️", "name": "Production Engineering", "levels": "B.E. · M.Tech" },
+    { "icon": "🔌", "name": "Instrumentation & Control", "levels": "B.E. · M.Tech" },
+    { "icon": "🤖", "name": "Information Technology", "levels": "B.E. · M.Tech" }
+  ],
+  "footer": {
+    "brand": {
+      "title": "Shri G.S. Institute of Technology & Science",
+      "description": "23 Park Road, Indore – 452 003, Madhya Pradesh, India. Phone: 0731-2431025 | Fax: 0731-2431021 Email: registrar@sgsits.ac.in Established in 1952, SGSITS is one of the oldest and most reputed engineering institutes in central India, committed to excellence in technical education, research, and innovation."
+    },
+    "academics": [
+      { "text": "UG Programmes", "href": "#" },
+      { "text": "PG Programmes", "href": "#" },
+      { "text": "Ph.D. Programmes", "href": "#" },
+      { "text": "Syllabus & Curriculum", "href": "#" },
+      { "text": "Academic Calendar", "href": "#" }
+    ],
+    "studentZone": [
+      { "text": "Student Login", "href": "#" },
+      { "text": "Exam Cell", "href": "#" },
+      { "text": "Hostel", "href": "#" },
+      { "text": "Scholarships", "href": "#" },
+      { "text": "Sports & Cultural", "href": "#" }
+    ],
+    "institute": [
+      { "text": "About SGSITS", "href": "#" },
+      { "text": "Administration", "href": "#" },
+      { "text": "IQAC", "href": "#" },
+      { "text": "Placement Cell", "href": "#" },
+      { "text": "Research & Dev.", "href": "#" }
+    ]
+  }
+}
