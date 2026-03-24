@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SGSITS Indore – Shri G.S. Institute of Technology & Science</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Source+Sans+3:wght@300;400;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ══════ MAINTENANCE MODAL ══════ -->
+<div class="maintenance-overlay" id="maintOverlay">
+  <div class="maintenance-card">
+    <div class="gear-ring"><span>⚙️</span></div>
+    <h2>Site Under Maintenance</h2>
+    <div class="red-line"></div>
+    <p>
+      The official website of <strong>Shri G.S. Institute of Technology &amp; Science, Indore</strong>
+      is currently undergoing scheduled maintenance and improvements.
+      We apologise for any inconvenience caused.
+    </p>
+    <div class="eta">
+      ⏱&nbsp; Estimated downtime: <strong>24–48 hours</strong> &nbsp;|&nbsp;
+      We'll be back soon!
+    </div>
+    <button class="dismiss-btn" onclick="document.getElementById('maintOverlay').style.display='none'">
+      Preview Site Anyway
+    </button>
+    <p class="dismiss-note">For urgent queries, contact <strong>0731-2431025</strong> or email <strong>registrar@sgsits.ac.in</strong></p>
+  </div>
+</div>
+
+<!-- ══════ MAINTENANCE BANNER (sticky) ══════ -->
+<div class="maintenance-banner">
+  <span class="icon">⚙️</span>
+  <div>
+    <div class="msg">🔴 Site Under Maintenance</div>
+    <div class="sub">We're improving your experience — some features may be temporarily unavailable.</div>
+  </div>
+  <div class="maintenance-badge">MAINTENANCE MODE</div>
+</div>
+
+<!-- ══════ TOP BAR ══════ -->
+<div class="top-bar">
+  <div>
+    📍 Shri G.S. Institute of Technology &amp; Science, 23 Park Road, Indore – 452 003 (M.P.)
+  </div>
+  <div>
+    <a href="#">Student Portal</a>
+    <a href="#">Exam Cell</a>
+    <a href="#">RTI</a>
+    <a href="#">Tenders</a>
+    <a href="#">Contact</a>
+  </div>
+</div>
+
+<!-- ══════ HEADER ══════ -->
+<header>
+  <div class="header-inner">
+    <!-- Logo (SVG-based since no external image) -->
+    <div class="logo-wrap">
+      <img src="sgsits_logo.jpg">
+    </div>
+
+    <div class="header-text">
+      <h1>Shri G.S. Institute of Technology &amp; Science</h1>
+      <div class="subtitle">
+        Govt.-Aided Autonomous Institute (est. in 1952) &nbsp;·&nbsp; "A" Grade &ndash; "Topmost Institute"<br/>
+        Affiliated to Rajiv Gandhi Proudyogiki Vishwavidyalaya, Bhopal
+      </div>
+      <span class="naac">NAAC Accredited &nbsp;|&nbsp; NBA Accredited &nbsp;|&nbsp; NIRF Ranked</span>
+    </div>
+  </div>
+</header>
+
+<!-- ══════ NAV ══════ -->
+<nav>
+  <div class="nav-inner">
+    <div class="nav-item active">Home</div>
+    <div class="nav-item">About Us</div>
+    <div class="nav-item">Academics</div>
+    <div class="nav-item">Admissions</div>
+    <div class="nav-item">Research</div>
+    <div class="nav-item">Departments</div>
+    <div class="nav-item">Facilities</div>
+    <div class="nav-item">Alumni</div>
+    <div class="nav-item">IQAC</div>
+    <div class="nav-item">Placement</div>
+    <div class="nav-item">Contact</div>
+  </div>
+</nav>
+
+<!-- ══════ HERO SLIDER ══════ -->
+<div class="hero">
+  <!-- Slide 1 -->
+  <div class="hero-slide active" id="s0">
+    <div class="hero-canvas" style="background:linear-gradient(160deg,#0a1840 0%,#122060 45%,#0d3020 100%);">
+      <svg class="campus-gate" viewBox="0 0 700 320" xmlns="http://www.w3.org/2000/svg">
+        <!-- sky/background -->
+        <rect width="700" height="320" fill="none"/>
+        <!-- trees -->
+        <ellipse cx="80" cy="200" rx="55" ry="70" fill="#1a4a25" opacity="0.7"/>
+        <ellipse cx="620" cy="200" rx="55" ry="70" fill="#1a4a25" opacity="0.7"/>
+        <ellipse cx="130" cy="220" rx="40" ry="55" fill="#236b30" opacity="0.7"/>
+        <ellipse cx="570" cy="220" rx="40" ry="55" fill="#236b30" opacity="0.7"/>
+        <!-- gate base -->
+        <rect x="220" y="160" width="260" height="160" fill="#1a2a6e" rx="2"/>
+        <!-- gate arch -->
+        <path d="M220 230 Q350 130 480 230" fill="#0f1d55" stroke="#c8902a" stroke-width="3"/>
+        <!-- pillars -->
+        <rect x="215" y="200" width="40" height="120" fill="#0f1d55"/>
+        <rect x="445" y="200" width="40" height="120" fill="#0f1d55"/>
+        <!-- pillar caps -->
+        <rect x="208" y="192" width="54" height="14" fill="#c8902a" rx="2"/>
+        <rect x="438" y="192" width="54" height="14" fill="#c8902a" rx="2"/>
+        <!-- gate doors -->
+        <rect x="270" y="230" width="70" height="90" fill="#c8902a" opacity="0.8" rx="2"/>
+        <rect x="360" y="230" width="70" height="90" fill="#c8902a" opacity="0.8" rx="2"/>
+        <rect x="295" y="240" width="20" height="60" fill="#8a5e10" opacity="0.6"/>
+        <rect x="385" y="240" width="20" height="60" fill="#8a5e10" opacity="0.6"/>
+        <!-- institute sign -->
+        <rect x="260" y="155" width="180" height="28" fill="#c8902a" rx="3"/>
+        <text x="350" y="174" text-anchor="middle" font-size="11" font-family="serif" font-weight="bold" fill="#0a1840">SGSITS INDORE</text>
+        <!-- road -->
+        <rect x="0" y="305" width="700" height="15" fill="#1e2d4a"/>
+        <rect x="320" y="307" width="60" height="4" fill="#c8902a" opacity="0.4"/>
+        <!-- path -->
+        <path d="M310 320 L310 260 L390 260 L390 320" fill="#2a3a60" opacity="0.4"/>
+      </svg>
+    </div>
+    <div class="hero-overlay">
+      <div class="hero-text">
+        <h2>Excellence in Engineering &amp; Technology Since 1952</h2>
+        <p>A premier government-aided institute shaping innovators, researchers, and leaders for over seven decades.</p>
+        <a href="#" class="header-btn" style="display:inline-block;width:auto;">Explore Programs →</a>
+      </div>
+    </div>
+  </div>
+  <!-- Slide 2 -->
+  <div class="hero-slide" id="s1">
+    <div class="hero-canvas" style="background:linear-gradient(160deg,#1a0a40 0%,#2a1060 50%,#0a1040 100%);">
+    </div>
+    <div class="hero-overlay" style="background:linear-gradient(to right,rgba(26,10,64,0.88) 35%,transparent 75%)">
+      <div class="hero-text">
+        <h2>State-of-the-Art Research &amp; Innovation Labs</h2>
+        <p>From robotics to renewable energy — our facilities empower students to solve tomorrow's challenges today.</p>
+        <a href="#" class="header-btn" style="display:inline-block;width:auto;">Research &amp; Projects →</a>
+      </div>
+    </div>
+  </div>
+  <!-- Slide 3 -->
+  <div class="hero-slide" id="s2">
+    <div class="hero-canvas" style="background:linear-gradient(160deg,#0a2010 0%,#1a4020 50%,#0a1840 100%);">
+    </div>
+    <div class="hero-overlay" style="background:linear-gradient(to right,rgba(10,32,16,0.88) 35%,transparent 75%)">
+      <div class="hero-text">
+        <h2>Placements with Top Global Companies</h2>
+        <p>Our graduates are placed at Microsoft, TCS, Infosys, L&amp;T and hundreds of leading organisations worldwide.</p>
+        <a href="#" class="header-btn" style="display:inline-block;width:auto;">Placement Records →</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Dots -->
+  <div class="hero-dots">
+    <div class="hero-dot active" onclick="goSlide(0)"></div>
+    <div class="hero-dot" onclick="goSlide(1)"></div>
+    <div class="hero-dot" onclick="goSlide(2)"></div>
+  </div>
+</div>
+
+<!-- ══════ QUICK INFO CARDS ══════ -->
+<div style="max-width:1200px;margin:0 auto;padding:28px 30px 0;">
+  <div class="cards-row">
+    <div class="info-card">
+      <div class="ic-icon">🎓</div>
+      <h3>UG Admissions 2025</h3>
+      <p>B.E. / B.Tech applications open via JoSAA / MP-DTE counselling. Check eligibility.</p>
+    </div>
+    <div class="info-card">
+      <div class="ic-icon">📋</div>
+      <h3>Exam Schedule</h3>
+      <p>End-semester examination timetable now published for all programmes.</p>
+    </div>
+    <div class="info-card">
+      <div class="ic-icon">🏆</div>
+      <h3>NIRF Ranking 2024</h3>
+      <p>SGSITS ranks among the top engineering institutes in Madhya Pradesh.</p>
+    </div>
+  </div>
+</div>
+
+<!-- ══════ MAIN CONTENT ══════ -->
+<div class="main-content">
+  <!-- LEFT COLUMN -->
+  <div>
+    <!-- News & Notices -->
+    <div class="sec-heading">Latest News &amp; Notices</div>
+    <ul class="news-list">
+      <li>
+        <div class="news-date">24<br/>MAR</div>
+        <div class="news-body">
+          <div class="title">Website is currently under scheduled maintenance</div>
+          <div class="desc">The official portal will be temporarily unavailable. Apologies for the inconvenience. Please check back soon.</div>
+          <span class="tag tag-notice">Notice</span>
+        </div>
+      </li>
+      <li>
+        <div class="news-date">20<br/>MAR</div>
+        <div class="news-body">
+          <div class="title">Ph.D. Admissions 2025 – Online Applications Invited</div>
+          <div class="desc">Applications are invited for full-time and part-time Ph.D. programmes in Engineering, Science &amp; Management.</div>
+          <span class="tag tag-new">New</span>
+        </div>
+      </li>
+      <li>
+        <div class="news-date">18<br/>MAR</div>
+        <div class="news-body">
+          <div class="title">National Conference on Emerging Technologies (NCET-2025)</div>
+          <div class="desc">Abstract submission deadline extended to 5 April 2025. Authors are invited to submit full papers.</div>
+          <span class="tag tag-event">Event</span>
+        </div>
+      </li>
+      <li>
+        <div class="news-date">15<br/>MAR</div>
+        <div class="news-body">
+          <div class="title">M.Tech / MBA Admissions 2025 – GATE / CAT Based</div>
+          <div class="desc">Shortlisted candidates for personal interview are advised to report as per the schedule.</div>
+          <span class="tag tag-new">New</span>
+        </div>
+      </li>
+      <li>
+        <div class="news-date">10<br/>MAR</div>
+        <div class="news-body">
+          <div class="title">SGSITS Annual Technical Fest "SPECTRUM 2025" – Registration Open</div>
+          <div class="desc">Join us for coding contests, robotics, hackathons, and cultural events. Register now!</div>
+          <span class="tag tag-event">Event</span>
+        </div>
+      </li>
+      <li>
+        <div class="news-date">05<br/>MAR</div>
+        <div class="news-body">
+          <div class="title">Revised Academic Calendar for Even Semester 2024-25</div>
+          <div class="desc">Please note the revised dates for internal examinations and the end-semester schedule.</div>
+          <span class="tag tag-notice">Notice</span>
+        </div>
+      </li>
+    </ul>
+
+    <!-- Events -->
+    <div class="sec-heading" style="margin-top:30px;">Upcoming Events</div>
+    <ul class="news-list">
+      <li>
+        <div class="news-date">28<br/>MAR</div>
+        <div class="news-body">
+          <div class="title">Campus Placement Drive – TCS, Infosys &amp; Wipro</div>
+          <div class="desc">Eligible final-year students may register through the Training &amp; Placement Cell portal.</div>
+          <span class="tag tag-event">Placement</span>
+        </div>
+      </li>
+      <li>
+        <div class="news-date">05<br/>APR</div>
+        <div class="news-body">
+          <div class="title">Workshop on AI &amp; Machine Learning – Department of CSE</div>
+          <div class="desc">A 3-day hands-on workshop for students and faculty. Registration fee waived for SGSITS students.</div>
+          <span class="tag tag-event">Workshop</span>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <!-- SIDEBAR -->
+  <div class="sidebar">
+    <!-- Quick Links -->
+    <div class="quick-links">
+      <div class="sec-heading">Quick Links</div>
+      <ul>
+        <li><a href="#">Student Login</a></li>
+        <li><a href="#">Fee Payment Portal</a></li>
+        <li><a href="#">Library OPAC</a></li>
+        <li><a href="#">Exam Results</a></li>
+        <li><a href="#">Scholarships &amp; Financial Aid</a></li>
+        <li><a href="#">Hostel Information</a></li>
+        <li><a href="#">Anti-Ragging Committee</a></li>
+        <li><a href="#">Grievance Redressal</a></li>
+        <li><a href="#">NAAC Self-Study Report</a></li>
+        <li><a href="#">NIRF Data</a></li>
+        <li><a href="#">Annual Reports</a></li>
+      </ul>
+    </div>
+
+    <!-- Stats -->
+    <div class="stat-box">
+      <div class="sec-heading">Institute at a Glance</div>
+      <div class="stats-grid">
+        <div class="stat-item"><div class="num">70+</div><div class="lbl">Years</div></div>
+        <div class="stat-item"><div class="num">12</div><div class="lbl">Departments</div></div>
+        <div class="stat-item"><div class="num">5000+</div><div class="lbl">Students</div></div>
+        <div class="stat-item"><div class="num">300+</div><div class="lbl">Faculty</div></div>
+        <div class="stat-item"><div class="num">95%</div><div class="lbl">Placement</div></div>
+        <div class="stat-item"><div class="num">25+</div><div class="lbl">Research Labs</div></div>
+      </div>
+    </div>
+
+    <!-- Important Dates -->
+    <div>
+      <div class="sec-heading">Important Dates</div>
+      <ul class="news-list" style="font-size:0.78rem;">
+        <li style="gap:10px;">
+          <div class="news-date" style="font-size:0.62rem;min-width:38px;">01<br/>APR</div>
+          <div>Last date – Ph.D. Applications</div>
+        </li>
+        <li style="gap:10px;">
+          <div class="news-date" style="font-size:0.62rem;min-width:38px;">05<br/>APR</div>
+          <div>NCET-2025 Abstract Deadline</div>
+        </li>
+        <li style="gap:10px;">
+          <div class="news-date" style="font-size:0.62rem;min-width:38px;">10<br/>APR</div>
+          <div>End-Sem Exams Begin</div>
+        </li>
+        <li style="gap:10px;">
+          <div class="news-date" style="font-size:0.62rem;min-width:38px;">15<br/>MAY</div>
+          <div>Result Declaration (Even Sem)</div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- ══════ ACCREDITATION STRIP ══════ -->
+<div class="accreditation">
+  <div class="accred-item"><span class="name">NAAC</span>"A" Grade Accredited</div>
+  <div style="width:1px;height:40px;background:rgba(255,255,255,0.15);"></div>
+  <div class="accred-item"><span class="name">NBA</span>Accredited Programmes</div>
+  <div style="width:1px;height:40px;background:rgba(255,255,255,0.15);"></div>
+  <div class="accred-item"><span class="name">NIRF</span>National Ranking 2024</div>
+  <div style="width:1px;height:40px;background:rgba(255,255,255,0.15);"></div>
+  <div class="accred-item"><span class="name">AICTE</span>Approved</div>
+  <div style="width:1px;height:40px;background:rgba(255,255,255,0.15);"></div>
+  <div class="accred-item"><span class="name">RGPV</span>Affiliated University</div>
+</div>
+
+<!-- ══════ PROGRAMMES ══════ -->
+<div class="programs-section">
+  <div class="programs-inner">
+    <div class="sec-heading">Academic Departments &amp; Programmes</div>
+    <div class="prog-grid">
+      <div class="prog-card"><div class="dept-icon">💻</div><h4>Computer Science &amp; Engg.</h4><p>B.E. · M.Tech · Ph.D.</p></div>
+      <div class="prog-card"><div class="dept-icon">⚡</div><h4>Electrical Engineering</h4><p>B.E. · M.Tech · Ph.D.</p></div>
+      <div class="prog-card"><div class="dept-icon">🔩</div><h4>Mechanical Engineering</h4><p>B.E. · M.Tech · Ph.D.</p></div>
+      <div class="prog-card"><div class="dept-icon">🏗️</div><h4>Civil Engineering</h4><p>B.E. · M.Tech · Ph.D.</p></div>
+      <div class="prog-card"><div class="dept-icon">📡</div><h4>Electronics &amp; Comm.</h4><p>B.E. · M.Tech · Ph.D.</p></div>
+      <div class="prog-card"><div class="dept-icon">🧪</div><h4>Applied Chemistry</h4><p>B.E. · M.Sc · Ph.D.</p></div>
+      <div class="prog-card"><div class="dept-icon">🔬</div><h4>Applied Physics</h4><p>B.E. · M.Sc · Ph.D.</p></div>
+      <div class="prog-card"><div class="dept-icon">📐</div><h4>Applied Mathematics</h4><p>B.E. · M.Sc · Ph.D.</p></div>
+      <div class="prog-card"><div class="dept-icon">🏢</div><h4>MBA (Management)</h4><p>2-Year Full Time</p></div>
+      <div class="prog-card"><div class="dept-icon">🛠️</div><h4>Production Engineering</h4><p>B.E. · M.Tech</p></div>
+      <div class="prog-card"><div class="dept-icon">🔌</div><h4>Instrumentation &amp; Control</h4><p>B.E. · M.Tech</p></div>
+      <div class="prog-card"><div class="dept-icon">🤖</div><h4>Information Technology</h4><p>B.E. · M.Tech</p></div>
+    </div>
+  </div>
+</div>
+
+<!-- ══════ FOOTER ══════ -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <h3>Shri G.S. Institute of Technology &amp; Science</h3>
+      <p>23 Park Road, Indore – 452 003, Madhya Pradesh, India.<br/>
+      Phone: 0731-2431025 &nbsp;|&nbsp; Fax: 0731-2431021<br/>
+      Email: registrar@sgsits.ac.in<br/><br/>
+      Established in 1952, SGSITS is one of the oldest and most reputed engineering institutes in central India, committed to excellence in technical education, research, and innovation.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Academics</h4>
+      <ul>
+        <li><a href="#">UG Programmes</a></li>
+        <li><a href="#">PG Programmes</a></li>
+        <li><a href="#">Ph.D. Programmes</a></li>
+        <li><a href="#">Syllabus &amp; Curriculum</a></li>
+        <li><a href="#">Academic Calendar</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Student Zone</h4>
+      <ul>
+        <li><a href="#">Student Login</a></li>
+        <li><a href="#">Exam Cell</a></li>
+        <li><a href="#">Hostel</a></li>
+        <li><a href="#">Scholarships</a></li>
+        <li><a href="#">Sports &amp; Cultural</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Institute</h4>
+      <ul>
+        <li><a href="#">About SGSITS</a></li>
+        <li><a href="#">Administration</a></li>
+        <li><a href="#">IQAC</a></li>
+        <li><a href="#">Placement Cell</a></li>
+        <li><a href="#">Research &amp; Dev.</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    &copy; 2025 Shri G.S. Institute of Technology &amp; Science, Indore. All rights reserved. &nbsp;|&nbsp;
+    This is a personal/educational recreation project — not the official SGSITS website. &nbsp;|&nbsp;
+    <span style="color:#dc2626;font-weight:600;">🔴 Site Under Maintenance</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
