@@ -71,20 +71,28 @@
   ],
   "news": [
     {
+        "date": "26",
+        "month": "MAR",
+        "title": "Recruitment for various positions in SAARTHI (A Section 8 company)",
+        "tag": "Notice",
+        "tagType": "tag-notice",
+        "ref": "Ad Image.jpeg"
+    }.
+    {
         "date": "24",
         "month": "MAR",
         "title": "Advertisement for faculty positions (Assistant Professors)",
         "tag": "Notice",
         "tagType": "tag-notice",
-        "ref": "Faculty positions Ad_24032026.pdf"
-    },
-    {
+        "ref": "Asst  Prof Advt 24.03.2026.pdf"
+      },
+      {
         "date": "24",
         "month": "MAR",
         "title": "Detailed guidelines and instructions for recruitment on the positions of Assistant Professors",
         "tag": "Notice",
         "tagType": "tag-notice",
-        "ref": "Asst  Prof Advt 24.03.2026.pdf"
+        "ref": "Faculty positions Ad_24032026.pdf"
     },
     {
         "date": "24",
