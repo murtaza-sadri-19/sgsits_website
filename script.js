@@ -113,12 +113,15 @@ function populateNews(newsItems) {
   newsList.innerHTML = '';
   newsItems.forEach(item => {
     const li = document.createElement('li');
+    const docsHTML = item.refs && item.refs.length > 0 
+      ? `<div class="docs-container">${item.refs.map(doc => `<a href="${doc.url}" target="_blank" class="pdf-link">${doc.name}</a>`).join(' | ')}</div>`
+      : '';
     li.innerHTML = `
       <div class="news-date">${item.date}<br/>${item.month}</div>
       <div class="news-body">
         <div class="title">${item.title}</div>
         <span class="tag ${item.tagType}">${item.tag}</span>
-        ${item.ref ? `<a href="${item.ref}" target="_blank" class="pdf-link">View   </a>` : ''}
+        ${docsHTML}
       </div>
     `;
     newsList.appendChild(li);

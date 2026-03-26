@@ -414,6 +414,25 @@ nav {
 .tag-event { background: #dbeafe; color: #1e40af; }
 .tag-notice { background: #fef9c3; color: #854d0e; }
 
+/* ── PDF LINKS ── */
+.pdf-link {
+  color: #d9534f;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 12px;
+  display: inline;
+  transition: color 0.2s;
+}
+.pdf-link:hover {
+  text-decoration: underline;
+  color: #b91c1c;
+}
+.docs-container {
+  margin-top: 8px;
+  font-size: 12px;
+  color: var(--gray);
+}
+
 /* ── SIDEBAR ── */
 .sidebar { display: flex; flex-direction: column; gap: 24px; }
 

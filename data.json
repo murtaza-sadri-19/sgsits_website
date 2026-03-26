@@ -76,7 +76,14 @@
         "title": "Recruitment for various positions in SAARTHI (A Section 8 company)",
         "tag": "Notice",
         "tagType": "tag-notice",
-        "ref": "Ad Image.jpeg"
+        "refs": [
+          { "name": "Advertisement", "url": "docs\\SAARTHI Recruitment Advt 26.03.2026.pdf" },
+          { "name": "Job Description for Accounts & Secretarial Assistant", "url": "docs\\Job Description - Accounts & Secretarial Assistant.pdf" },
+          { "name": "Job Description for Incubation Associate", "url": "docs\\Job Description - Incubation Associate.pdf" },
+          { "name": "Job Description for Incubation Manager", "url": "docs\\Job Description - Incubation Manager.pdf" },
+          { "name": "Job Description for  Project Associate", "url": "docs\\Job Description - Project Associate.pdf" },
+          { "name": "Job Description for  Technical Associate", "url": "docs\\Job Description - Technical Associaste.pdf" }
+        ]
     },
     {
         "date": "24",
@@ -84,7 +91,9 @@
         "title": "Advertisement for faculty positions (Assistant Professors)",
         "tag": "Notice",
         "tagType": "tag-notice",
-        "ref": "Asst  Prof Advt 24.03.2026.pdf"
+        "refs": [
+          { "name": "Advertisement", "url": "docs\\Asst  Prof Advt 24.03.2026.pdf" }
+        ]
       },
       {
         "date": "24",
@@ -92,7 +101,9 @@
         "title": "Detailed guidelines and instructions for recruitment on the positions of Assistant Professors",
         "tag": "Notice",
         "tagType": "tag-notice",
-        "ref": "Faculty positions Ad_24032026.pdf"
+        "refs": [
+          { "name": "Guidelines", "url": "docs\\Faculty positions Ad_24032026.pdf" }
+        ]
     },
     {
         "date": "24",
@@ -100,7 +111,9 @@
         "title": "Online Application Form Link for the recruitment of Assistant Professors",
         "tag": "Notice",
         "tagType": "tag-notice",
-        "ref": "https://forms.gle/xGxszi9qPmHuErUz6"
+        "refs": [
+          { "name": "Application Form", "url": "https://forms.gle/xGxszi9qPmHuErUz6" }
+        ]
     },
     {
         "date": "24",
@@ -108,7 +121,9 @@
         "title": "Guidelines for Professor of Practise",
         "tag": "Notice",
         "tagType": "tag-notice",
-        "ref": "PRACTICE OF PROFESSOR.pdf"
+        "refs": [
+          { "name": "Guidelines", "url": "docs\\PRACTICE OF PROFESSOR.pdf" }
+        ]
     }
   ],
   "events": [
